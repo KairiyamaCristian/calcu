@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.calculadora {
+  width: 250px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #4da0ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.display {
+  width: 92%;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #ffffffe2;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tecla {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
